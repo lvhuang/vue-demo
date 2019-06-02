@@ -1,7 +1,7 @@
 <template>
   <div class="pageA">
     <div class="pageitem">
-      <ContentItem content_item_content="A"></ContentItem>
+      <ContentItem content_item_content="Aaaaaa"></ContentItem>
     </div>
     <div class="pageitem">
       <ContentItem content_item_content="A"></ContentItem>
