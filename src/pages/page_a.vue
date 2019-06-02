@@ -1,27 +1,20 @@
 <template>
-  <div class="pageA">
-    <div class="pageitem">
-      <ContentItem content_item_content="Aaaaaa"></ContentItem>
-    </div>
-    <div class="pageitem">
-      <ContentItem content_item_content="A"></ContentItem>
-    </div>
-    <div class="pageitem">
-      <ContentItem content_item_content="A"></ContentItem>
-    </div>
-    <div class="pageitem">
-      <ContentItem content_item_content="A"></ContentItem>
-    </div>
+   <div>
+    <a-button type="primary">Primary</a-button>
+    <a-button>Default</a-button>
+    <a-button type="dashed">Dashed</a-button>
+    <a-button type="danger">Danger</a-button>
   </div>
 </template>
 
 <script>
-import ContentItem from "../components/content_item";
+import { Button } from 'ant-design-vue'
+import Vue from 'Vue'
+Vue.use(Button);
 
 export default {
   name: "PageA",
   components: {
-    ContentItem
   }
 };
 </script>
