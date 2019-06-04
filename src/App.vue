@@ -33,11 +33,12 @@ export default {
   grid-template-columns: 1fr 7fr;
   height: 500px;
 }
-.cotent {
-  text-align: center;
-  background: antiquewhite;
+.content {
+  /* text-align: center;
+  background: antiquewhite; */
+  border: 20px solid #F7F5FA;
 }
-.control_panel{
-      background: yellow;
+.control_panel {
+  /* background: yellow; */
 }
 </style>

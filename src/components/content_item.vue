@@ -1,7 +1,7 @@
 
 <template>
   <div class="content_item">
-    <div>{{content_item_content}}</div>
+    <!-- <div>{{content_item_content}}</div> -->
     
   </div>
 </template>
